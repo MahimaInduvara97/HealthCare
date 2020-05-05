@@ -1,0 +1,16 @@
+.contact-section .btn-section .active-bg {
+    color: #ff214f;
+}
+
+.contact-section .form-section .checkbox-theme input[type="checkbox"]:checked + label::before {
+    background-color: #ff2f2f;
+    border-color: #ff2f2f;
+}
+
+.contact-section .form-section .btn-theme {
+    background: #ff214f;
+}
+
+.contact-section .form-section .btn-theme:hover {
+    background: #ff214f;
+}
