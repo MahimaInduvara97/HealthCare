@@ -73,7 +73,7 @@ function onItemSaveComplete(response, status)
 //-------------Update----------------
 $(document).on("click", ".btnUpdate", function(event)
 		{
-			$("#hidUserIDSave").val($(this).closest("tr").find('#hidItemIDUpdate').val());
+			$("#hidUserIDSave").val($(this).closest("tr").find('#hidUserIDUpdate').val());
 			$("#userName").val($(this).closest("tr").find('td:eq(0)').text());
 			$("#userAge").val($(this).closest("tr").find('td:eq(1)').text());
 			$("#userGender").val($(this).closest("tr").find('td:eq(2)').text());

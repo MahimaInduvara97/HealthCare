@@ -95,7 +95,7 @@ public class User {
 
 				
 				// Add into the html table
-				output += "<tr><td><input id='hidItemIDUpdate'name='hidItemIDUpdate' type='hidden' value='" + UserID+ "'>"+ name + "</td>";
+				output += "<tr><td><input id='hidUserIDUpdate'name='hidUserIDUpdate' type='hidden' value='" + UserID+ "'>"+ name + "</td>";
 				output += "<td>" + age + "</td>";
 				output += "<td>" + gender + "</td>";
 				output += "<td>" + phone + "</td>";

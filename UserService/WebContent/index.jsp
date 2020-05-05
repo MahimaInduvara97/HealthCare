@@ -15,13 +15,9 @@
 
     <!-- External CSS libraries -->
     <link rel="stylesheet" type="text/css" href="Views/boostrap/bootstrap.min.css">
-
-
-
-    <link rel="stylesheet" type="text/css" href="Views/style.css">
-    <link rel="stylesheet" type="text/css" id="style_sheet" href="Views/default.css">
-
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,300,700">
+ <link rel="stylesheet" type="text/css" href="Views/style.css">
+   <link rel="stylesheet" type="text/css" id="style_sheet" href="Views/default.css">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,300,700">
 
 
 </head>
@@ -36,7 +32,7 @@
                 <div class="form-section clearfix">
                     <h3>Create an account</h3>
                     <div class="btn-section clearfix">
-                        <a href="#" class="link-btn active btn-1 default-bg">Login</a>
+                        <a href="login.jsp" class="link-btn active btn-1 default-bg">Login</a>
                         <a href="index.jsp" class="link-btn btn-2 active-bg">Register</a>
                     </div>
                     <div class="clearfix"></div>
