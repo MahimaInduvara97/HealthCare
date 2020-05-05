@@ -94,12 +94,12 @@ $(document).on("click", ".btnRemove", function(event)
 				dataType : "text",
 				complete : function(response, status)
 				{
-					onItemDeleteComplete(response.responseText, status);
+					onUserDeleteComplete(response.responseText, status);
 				}
 			});
 		});
 
-		function onItemDeleteComplete(response, status)
+		function onUserDeleteComplete(response, status)
 		{
 			if (status == "success")
 			{
@@ -136,10 +136,40 @@ function validateUserForm()
 	{
 		return "Insert Name.";
 	}
-	
 	if ($("#userAge").val().trim() == "")
 	{
 		return "Insert Age.";
 	}
+	
+	// GENDER
+	if ($("#userGender").val().trim() == "")
+	{
+		return "Insert gender.";
+	}
+	
+	//PHONE-------------------------------
+	if ($("#userPhone").val().trim() == "")
+	{
+		return "Insert Phone.";
+	}
+	
+	// is numerical value
+	var tmpPrice = $("#userPhone").val().trim();
+	
+	if (!$.isNumeric(tmpPrice))
+	{
+		return "Insert a numerical value for Phone.";
+	}
+	
+	// EMAIL------------------------
+	if ($("#userEmail").val().trim() == "")
+	{
+		return "Insert User Email.";
+	}
+	if ($("#password").val().trim() == "")
+	{
+		return "Insert Passowrd.";
+	}
+	
 	return true;
 }
