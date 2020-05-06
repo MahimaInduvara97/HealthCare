@@ -8,15 +8,14 @@
 <script src="Components/jquery-3.2.1.min.js"></script>
 <script src="Components/main.js" ></script>
 <head>
-    <!-- End Google Tag Manager -->
     <title>Health care system</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
 
-    <!-- External CSS libraries -->
-    <link rel="stylesheet" type="text/css" href="Views/boostrap/bootstrap.min.css">
+ 
+ <link rel="stylesheet" type="text/css" href="Views/boostrap/bootstrap.min.css">
  <link rel="stylesheet" type="text/css" href="Views/style.css">
-   <link rel="stylesheet" type="text/css" id="style_sheet" href="Views/default.css">
+  <link rel="stylesheet" type="text/css" id="style_sheet" href="Views/default.css">
 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,300,700">
 
 
@@ -32,7 +31,7 @@
                 <div class="form-section clearfix">
                     <h3>Create an account</h3>
                     <div class="btn-section clearfix">
-                        <a href="login.jsp" class="link-btn active btn-1 default-bg">Login</a>
+                        <a href="#" class="link-btn active btn-1 default-bg">Login</a>
                         <a href="index.jsp" class="link-btn btn-2 active-bg">Register</a>
                     </div>
                     <div class="clearfix"></div>
@@ -75,7 +74,7 @@
                     <h3>Welcome to Health Care System</h3>
                 </div>
             </div>
-                <div id="divItemsGrid">
+                <div id="divUserGrid">
 				<%
 					User userObj = new User();
 					out.print(userObj.readUser());

@@ -48,7 +48,7 @@ function onItemSaveComplete(response, status)
 		{
 			$("#alertSuccess").text("Successfully saved.");
 			$("#alertSuccess").show();
-			$("#divItemsGrid").html(resultSet.data);
+			$("#divUserGrid").html(resultSet.data);
 		} 
 		else if (resultSet.status.trim() == "error")
 		{
@@ -90,7 +90,7 @@ $(document).on("click", ".btnRemove", function(event)
 			{
 				url : "UserAPI",
 				type : "DELETE",
-				data : "userID=" + $(this).data("itemid"),
+				data : "userID=" + $(this).data("userid"),
 				dataType : "text",
 				complete : function(response, status)
 				{
@@ -109,7 +109,7 @@ $(document).on("click", ".btnRemove", function(event)
 				{
 					$("#alertSuccess").text("Successfully deleted.");
 					$("#alertSuccess").show();
-					$("#divItemsGrid").html(resultSet.data);
+					$("#divUserGrid").html(resultSet.data);
 				} 
 				else if (resultSet.status.trim() == "error")
 				{
