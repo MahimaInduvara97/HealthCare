@@ -58,8 +58,8 @@
                         </div>
                     
                         <div class="form-group clearfix mb-0">
-  							 <input type="hidden" id="hidUserIDSave" name="hidUserIDSave" value="Save" >
-                            <button type="button" class="btn-md btn-theme float-left" id="btnSave" name="btnSave" >Register</button>                    
+  							 <input type="hidden" id="hidUserIDSave" name="hidUserIDSave" value="" >
+                            <button type="button" class="btn-md btn-theme float-left" id="btnSave" name="btnSave" value="" >Register</button>                    
                            
                         </div>
                     </form>    
